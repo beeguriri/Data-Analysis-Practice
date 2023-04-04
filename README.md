@@ -3,7 +3,17 @@
 
 <br>
 
+## Todo
+- [ ] 회귀 : 캘리포니아 집값
+- [ ] 분류 : 타이타닉(kaggle)
+- [ ] 시계열 -> sample(coin, 주식, 아파트 중 하나)
+
+
 ## 설정
+
+* Pyhon <= `3.10.10`
+* `numpy`, `pandas`, `matplotlib` 필수 설치
+* `ipynb`를 위해 `jupyterlab` 설치
 
 0. Python 기본설정
 ```shell
