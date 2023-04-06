@@ -10,9 +10,9 @@
 
 
 ## 설정
-
 * Pyhon <= `3.10.10`
 * `numpy`, `pandas`, `matplotlib` 필수 설치
+* `seaborn` 옵션 설치
 * `ipynb`를 위해 `jupyterlab` 설치
 
 0. Python 기본설정
@@ -33,9 +33,8 @@ $ pip list
 $ pip install wheel
 
 # list에 필요없는 파일이 설치되어있을 경우
-$ pip freeze > req.txt
-$ pip uninstall -r req.txt -y
-
+$ pip freeze > requirements.txt
+$ pip uninstall -r requirements.txt -y
 ```
 
 1. Python 격리
@@ -49,4 +48,12 @@ $ .\venv\Scripts\activate
 
 # 가상환경 내에 패키지 설치
 $ (venv) pip install -r requirements.txt
+```
+
+2. Jupyter-lab 실행
+```shell
+$ jupyter-lab
+# app 내 실행 ctrl+enter
+# code shell 생성 alt+enter
+# restart kernel -> Run All Cells
 ```
