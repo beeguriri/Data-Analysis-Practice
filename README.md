@@ -13,7 +13,10 @@
 * Pyhon <= `3.10.10`
 * `numpy`, `pandas`, `matplotlib` 필수 설치
 * `seaborn` 옵션 설치
+* 고급 시각화를 위해서 `plotply`도 병행해서 사용
+* 회귀분석을 위해서 `statsmodels`, `scikit-learn`, `xgboost`, `Optuna`를 활용
 * `ipynb`를 위해 `jupyterlab` 설치
+* `requirements.txt` 파일을 참고해서 설치
 
 0. Python 기본설정
 ```shell
